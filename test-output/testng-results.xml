@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48512" started-at="2018-05-05T01:54:35Z" finished-at="2018-05-05T01:55:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="48512" started-at="2018-05-05T01:54:35Z" finished-at="2018-05-05T01:55:24Z">
+      <class name="com.lnkd.qa.testcases.LinkedinHomeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.lnkd.qa.testcases.LinkedinHomeTest@546a03af]" name="setup" is-config="true" duration-ms="7723" started-at="2018-05-05T01:55:06Z" finished-at="2018-05-05T01:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLogo()[pri:1, instance:com.lnkd.qa.testcases.LinkedinHomeTest@546a03af]" name="verifyLogo" duration-ms="56" started-at="2018-05-05T01:55:13Z" finished-at="2018-05-05T01:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:2, instance:com.lnkd.qa.testcases.LinkedinHomeTest@546a03af]" name="verifyHomePageTitle" duration-ms="5" started-at="2018-05-05T01:55:13Z" finished-at="2018-05-05T01:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.lnkd.qa.testcases.LinkedinHomeTest@546a03af]" name="loginTest" duration-ms="7887" started-at="2018-05-05T01:55:13Z" finished-at="2018-05-05T01:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lnkd.qa.testcases.LinkedinHomeTest@546a03af]" name="tearDown" is-config="true" duration-ms="2370" started-at="2018-05-05T01:55:21Z" finished-at="2018-05-05T01:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lnkd.qa.testcases.LinkedinHomeTest -->
+      <class name="com.lnkd.qa.testcases.PeopleSearchDDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.lnkd.qa.testcases.PeopleSearchDDT@721e0f4f]" name="setup" is-config="true" duration-ms="14658" started-at="2018-05-05T01:54:35Z" finished-at="2018-05-05T01:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="peopleSearchTest(java.lang.String)[pri:0, instance:com.lnkd.qa.testcases.PeopleSearchDDT@721e0f4f]" name="peopleSearchTest" duration-ms="3613" started-at="2018-05-05T01:54:51Z" data-provider="searchData" finished-at="2018-05-05T01:54:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- peopleSearchTest -->
+        <test-method status="PASS" signature="peopleSearchTest(java.lang.String)[pri:0, instance:com.lnkd.qa.testcases.PeopleSearchDDT@721e0f4f]" name="peopleSearchTest" duration-ms="3433" started-at="2018-05-05T01:54:54Z" data-provider="searchData" finished-at="2018-05-05T01:54:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chandu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- peopleSearchTest -->
+        <test-method status="PASS" signature="peopleSearchTest(java.lang.String)[pri:0, instance:com.lnkd.qa.testcases.PeopleSearchDDT@721e0f4f]" name="peopleSearchTest" duration-ms="3445" started-at="2018-05-05T01:54:58Z" data-provider="searchData" finished-at="2018-05-05T01:55:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sushma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- peopleSearchTest -->
+        <test-method status="PASS" signature="peopleSearchTest(java.lang.String)[pri:0, instance:com.lnkd.qa.testcases.PeopleSearchDDT@721e0f4f]" name="peopleSearchTest" duration-ms="3459" started-at="2018-05-05T01:55:01Z" data-provider="searchData" finished-at="2018-05-05T01:55:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sivakrishna]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- peopleSearchTest -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.lnkd.qa.testcases.PeopleSearchDDT@721e0f4f]" name="logOut" is-config="true" duration-ms="720" started-at="2018-05-05T01:55:05Z" finished-at="2018-05-05T01:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- com.lnkd.qa.testcases.PeopleSearchDDT -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
